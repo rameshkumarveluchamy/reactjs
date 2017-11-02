@@ -2,7 +2,7 @@ const webpack = require('webpack')
 const path = require('path');
 
 module.exports = {
-    entry: './src/hello.js',
+    entry: './src/index.js',
     module: {
         loaders: [
             {
@@ -16,7 +16,7 @@ module.exports = {
         ]
     },
     output:{
-        path: __dirname + "/src/",
-        filename: "hello.min.js"
+        path: __dirname,
+        filename: "app.min.js"
     }
 };
