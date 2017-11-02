@@ -3,17 +3,17 @@
   "version": "1.0.0",
   "description": "React Test App",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "react": "*",
-    "react-dom": "*",
-    "babel-core": "*",
-    "babel-loader": "*"
-  },
-  "devDependencies": {
-    "webpack": "*"
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "webpack": "^3.8.1",
+    "webpack-dev-server": "^2.9.4",
+    "youtube-api-search": "0.0.5"
   }
 }
